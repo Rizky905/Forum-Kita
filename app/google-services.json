@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "175371458959",
+    "firebase_url": "https://forumkita-9e086.firebaseio.com",
+    "project_id": "forumkita-9e086",
+    "storage_bucket": "forumkita-9e086.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:175371458959:android:34ca99527e1fcf7b",
+        "android_client_info": {
+          "package_name": "com.example.erlanggarizky.forumkita"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "175371458959-3hfjbf212ocae2bc43khp88atek0p4ru.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.erlanggarizky.forumkita",
+            "certificate_hash": "ff63e2de79fe053500301f93c5f0ac8d6d2635ab"
+          }
+        },
+        {
+          "client_id": "175371458959-k5qp3p4lm889b0le943p31e88g82na8l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD27JDYEdjXQKUyApHd9YtXIUEoxuiNO2c"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "175371458959-k5qp3p4lm889b0le943p31e88g82na8l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

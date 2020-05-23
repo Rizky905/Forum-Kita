@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddPostActivity"
+    android:fitsSystemWindows="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="2dp"
+        >
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+            <EditText
+                android:id="@+id/pTitle"
+                android:background="@color/white"
+                android:textColorHint="@color/blackdope"
+                android:textColor="@color/blackdope"
+                android:padding="15dp"
+                android:hint="Masukan judul..."
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+
+            <EditText
+                android:id="@+id/pDescription"
+                android:layout_marginTop="5dp"
+                android:layout_below="@id/pTitle"
+                android:background="@color/white"
+                android:textColorHint="@color/blackdope"
+                android:textColor="@color/blackdope"
+                android:padding="10dp"
+                android:minHeight="539dp"
+                android:hint="Masukan deskripsi pertanyaan.."
+                android:singleLine="true"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                />
+        </LinearLayout>
+    </ScrollView>
+
+    <ImageButton
+        android:id="@+id/pImageIv"
+        android:layout_width="205dp"
+        android:layout_height="wrap_content"
+        android:background="@color/bluesky"
+        android:src="@drawable/add_image_post"
+        android:layout_alignParentBottom="true"
+        android:minHeight="48dp"
+        />
+    <Button
+        android:id="@+id/pUploadBtn"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="210dp"
+        android:text="Ajukan Pertanyaan      "
+        android:textAlignment="textEnd"
+        android:layout_alignParentBottom="true"
+        android:background="@color/bluesky"/>
+</RelativeLayout>

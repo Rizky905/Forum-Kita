@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/toolbar"
+        android:background="@color/grenn"
+        android:minHeight="?attr/actionBarSize"
+        android:theme="?attr/actionBarTheme"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        app:theme="@style/ThemeOverlay.AppCompat.Dark" />
+
+    <android.support.v7.widget.AppCompatButton
+        android:id="@+id/searchbut"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:text="Cari Pertanyaan Kamu Disini"
+        android:textColor="@color/whitegrey"
+        android:textAlignment="textStart"
+        android:textAllCaps="false"
+        android:drawableLeft="@drawable/ic_search_black_24dp"
+        />
+
+    <ImageButton
+        android:id="@+id/addpertanyaan"
+        android:layout_width="35dp"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/ic_add_post" />
+
+    <android.support.design.widget.TabLayout
+        android:background="@color/grenn"
+        android:id="@+id/tabs"
+        android:layout_below="@+id/searchbut"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:tabSelectedTextColor="@color/white"
+        app:tabTextColor="@color/white">
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/jawab"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="JAWABAN" />
+
+        <android.support.design.widget.TabItem
+            android:id="@+id/akun"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="AKUN" />
+    </android.support.design.widget.TabLayout>
+
+    <android.support.v4.view.ViewPager
+        android:layout_below="@+id/tabs"
+        android:id="@+id/fragment_container"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        />
+
+
+</RelativeLayout>

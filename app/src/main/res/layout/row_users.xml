@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="4dp"
+    app:cardBackgroundColor="@color/purplesoft">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.blogspot.atifsoftwares.circularimageview.CircularImageView
+            android:id="@+id/image"
+            android:src="@drawable/user_acc_ic"
+            android:layout_width="56dp"
+            android:layout_height="56dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="15dp"
+            />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/namaprofile"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama"
+                android:textSize="19sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/universitas"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="universitas"
+                android:textSize="19sp"
+                android:textColor="@color/white"/>
+            <TextView
+                android:id="@+id/jurusan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Jurusan"
+                android:textColor="@color/white"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+</android.support.v7.widget.CardView>

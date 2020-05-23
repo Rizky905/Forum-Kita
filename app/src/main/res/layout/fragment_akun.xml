@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+        <ImageView
+            android:id="@+id/fotoprofile"
+            android:layout_width="120dp"
+            android:layout_height="110dp"
+            android:background="@color/purpleblack"
+            android:padding="2dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/add_photo_ic"/>
+
+        <TextView
+            android:id="@+id/namaprofile"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_alignTop="@+id/fotoprofile"
+            android:layout_marginStart="160dp"
+            android:textColor="@color/bluesky"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/jurusan"
+            android:textColor="@color/bluesky"
+            android:layout_below="@id/namaprofile"
+            android:layout_marginLeft="161dp"
+            android:textStyle="bold"
+            android:textSize="11dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/universitas"
+            android:textColor="@color/bluesky"
+            android:layout_below="@id/jurusan"
+            android:layout_marginLeft="160dp"
+            android:textStyle="bold"
+            android:textSize="10dp"/>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/edit_akun"
+            android:layout_marginLeft="340dp"
+            android:layout_below="@+id/namaprofile"
+            android:background="@color/bluesky"
+            android:src="@drawable/edit_acc_ic"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="150dp"
+            android:layout_height="60dp"
+            android:id="@+id/teman"
+            android:layout_centerHorizontal="true"
+            android:layout_centerVertical="true"
+            android:layout_above="@+id/pesan"
+            android:layout_marginBottom="50dp"
+            android:background="@color/white"
+            android:text="Teman"
+            android:textAlignment="textStart"
+            android:textColor="@color/blackdope"
+            android:textAllCaps="false"
+            android:drawableLeft="@drawable/teman_ic"
+            android:drawablePadding="2dp"
+            android:paddingLeft="35dp"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/pesan"
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:layout_centerVertical="true"
+            android:background="@color/white"
+            android:drawableLeft="@drawable/chat_ic"
+            android:drawablePadding="2dp"
+            android:paddingLeft="20dp"
+            android:text="      Pesan"
+            android:textAlignment="textStart"
+            android:textAllCaps="false"
+            android:textColor="@color/blackdope"
+            android:textSize="15dp" />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:id="@+id/pertanyaan_akun"
+            android:layout_below="@+id/pesan"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"
+            android:drawablePadding="2dp"
+            android:paddingLeft="20dp"
+            android:text="      Pertanyaan"
+            android:drawableLeft="@drawable/pertanyaan_ic"
+            android:textSize="15dp"
+            android:textColor="@color/blackdope"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:background="@color/white"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:id="@+id/jawaban_akun"
+            android:layout_below="@+id/pertanyaan_akun"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/jawaban_ic"
+            android:text="      Jawaban"
+            android:textSize="15dp"
+            android:drawablePadding="2dp"
+            android:paddingLeft="20dp"
+            android:textColor="@color/blackdope"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:background="@color/white"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:id="@+id/pengaturan"
+            android:layout_below="@+id/jawaban_akun"
+            android:layout_marginTop="2dp"
+            android:layout_centerVertical="true"
+            android:text="      Pengaturan"
+            android:drawablePadding="2dp"
+            android:paddingLeft="20dp"
+            android:textSize="15dp"
+            android:drawableLeft="@drawable/setting_ic"
+            android:textColor="@color/blackdope"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:background="@color/white"
+            />
+
+        <android.support.v7.widget.AppCompatButton
+            android:layout_width="match_parent"
+            android:layout_height="62dp"
+            android:id="@+id/logout"
+            android:layout_below="@+id/pengaturan"
+            android:layout_marginTop="2dp"
+            android:drawablePadding="2dp"
+            android:paddingLeft="20dp"
+            android:layout_centerVertical="true"
+            android:drawableLeft="@drawable/logoff_ic"
+            android:text="      Keluar"
+            android:textSize="15dp"
+            android:textColor="@color/blackdope"
+            android:textAllCaps="false"
+            android:textAlignment="textStart"
+            android:background="@color/white"
+            />
+
+</RelativeLayout>

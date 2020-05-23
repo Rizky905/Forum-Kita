@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="white">#ffffff</color>
+    <color name="grey">#808080</color>
+    <color name="trans">#00000000</color>
+    <color name="whitegrey">#f2f2f2</color>
+
+    <!--gradient color-->
+    <color name="bluesky">#00d2ff</color>
+    <color name="purpleblack">#928DAB</color>
+    <color name="blackdope">#1D4350</color>
+    <color name="reddope">#A43931</color>
+    <color name="redpink">#FFA1A1</color>
+    <color name="purplesoft">#EAA1FF</color>
+    <color name="grenn">#B3FFAB</color>
+    <color name="yellow">#fffc00</color>
+    <color name="reddo">#cc2b5e</color>
+</resources>
